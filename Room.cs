@@ -2,7 +2,7 @@ public class Room
 {
     static Semaphore semaphore = new Semaphore(initialCount: 3, maximumCount: 3);
     Thread myThread;
-    int count; // sanaoq
+    static int count; // sanoq
 
     public Room(int i)
     {

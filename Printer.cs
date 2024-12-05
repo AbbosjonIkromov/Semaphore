@@ -4,7 +4,7 @@ public class Printer
 {
     static Semaphore semaphore = new Semaphore(initialCount: 2, maximumCount: 2);
     Thread myThread;
-    int count;
+    static int count;
 
     public Printer(int i)
     {
